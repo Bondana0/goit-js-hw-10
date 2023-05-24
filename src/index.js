@@ -4,7 +4,7 @@ import './css/styles.css';
 import API  from './js/fetchCountries.js';
 
 const DEBOUNCE_DELAY = 300;
-// API.fetchCountries('ukraine').then(result => console.log(result));
+
 const refs = { 
     inputEl : document.getElementById('country-box'),
     ulEl: document. querySelector('.country-roster'),
